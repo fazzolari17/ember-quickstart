@@ -1,5 +1,6 @@
 {
   "schemaVersion": "1.0.0",
+  "experimentalDecorators": true,
   "packages": [
     {
       "name": "ember-cli",
@@ -10,6 +11,7 @@
           "outputRepo": "https://github.com/ember-cli/ember-new-output",
           "codemodsSource": "ember-app-codemods-manifest@1",
           "isBaseBlueprint": true,
+          "experimentalDecorators": true,
           "options": [
             "--ci-provider=github"
           ]
